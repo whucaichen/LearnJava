@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" type="JAX-WS">
+    <properties version="Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/jaxws-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/gmbal-api-only.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/ha-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/jaxb-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/jsr181-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/management-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/mimepull.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/policy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/saaj-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/FastInoset.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/streambuffer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/stax2-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/stax-ex.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/saaj-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/jaxws-tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/woodstox-core-asl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/jaxb-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/jaxws-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Learn_Jersey/lib/jaxb-xjc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

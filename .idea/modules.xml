@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/APP/APP.iml" filepath="$PROJECT_DIR$/APP/APP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JFormDesigner/JFormDesigner.iml" filepath="$PROJECT_DIR$/JFormDesigner/JFormDesigner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb/JavaWeb.iml" filepath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnJava.iml" filepath="$PROJECT_DIR$/LearnJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learn_Callback/Learn_Callback.iml" filepath="$PROJECT_DIR$/Learn_Callback/Learn_Callback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learn_Dialog/Learn_Dialog.iml" filepath="$PROJECT_DIR$/Learn_Dialog/Learn_Dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learn_File/Learn_File.iml" filepath="$PROJECT_DIR$/Learn_File/Learn_File.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learn_JNI/Learn_JNI.iml" filepath="$PROJECT_DIR$/Learn_JNI/Learn_JNI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learn_Jersey/Learn_Jersey.iml" filepath="$PROJECT_DIR$/Learn_Jersey/Learn_Jersey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learn_Junit/Learn_Junit.iml" filepath="$PROJECT_DIR$/Learn_Junit/Learn_Junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learn_RegExp/Learn_RegExp.iml" filepath="$PROJECT_DIR$/Learn_RegExp/Learn_RegExp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learn_SWT/Learn_SWT.iml" filepath="$PROJECT_DIR$/Learn_SWT/Learn_SWT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learn_Servlet/Learn_Servlet.iml" filepath="$PROJECT_DIR$/Learn_Servlet/Learn_Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learn_Socket/Learn_Socket.iml" filepath="$PROJECT_DIR$/Learn_Socket/Learn_Socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learn_Spider/Learn_Spider.iml" filepath="$PROJECT_DIR$/Learn_Spider/Learn_Spider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learn_Swing/Learn_Swing.iml" filepath="$PROJECT_DIR$/Learn_Swing/Learn_Swing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learn_XML/Learn_XML.iml" filepath="$PROJECT_DIR$/Learn_XML/Learn_XML.iml" />
+    </modules>
+  </component>
+</project>

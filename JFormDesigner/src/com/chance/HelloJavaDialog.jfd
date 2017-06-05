@@ -1,0 +1,200 @@
+JFDML JFormDesigner: "5.2.4.0.321" Java: "1.8.0_40" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {comp desktopPane2::l:::x, comp tabbedPane1::l:::x}"
+					"$verticalGroup": "par l {seq l {comp tabbedPane1::::256:x, space :::p, comp desktopPane2:::p:120:p}}"
+				} ) {
+					name: "contentPanel"
+					add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+						name: "tabbedPane1"
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label1"
+							"text": "Tab1"
+						}, new FormLayoutConstraints( null ) {
+							"title": "Tab1"
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+							name: "panel2"
+							add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+								name: "scrollPane4"
+								add( new FormComponent( "javax.swing.JEditorPane" ) {
+									name: "editorPane1"
+								} )
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "Center"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Tab3"
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+							name: "panel1"
+							add( new FormComponent( "javax.swing.JTextField" ) {
+								name: "textField1"
+								"text": "Tab2"
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "North"
+							} )
+							add( new FormComponent( "javax.swing.JButton" ) {
+								name: "button1"
+								"text": "Button"
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "South"
+							} )
+							add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+								name: "scrollPane3"
+								add( new FormComponent( "javax.swing.JTree" ) {
+									name: "tree1"
+									"model": new javax.swing.tree.DefaultTreeModel( new javax.swing.tree.DefaultMutableTreeNode {
+										userObject: "(Item)"
+										add( new javax.swing.tree.DefaultMutableTreeNode {
+											userObject: "item1"
+											add( new javax.swing.tree.DefaultMutableTreeNode {
+												userObject: "item11"
+											} )
+											add( new javax.swing.tree.DefaultMutableTreeNode {
+												userObject: "item12"
+											} )
+											add( new javax.swing.tree.DefaultMutableTreeNode {
+												userObject: "item13"
+											} )
+										} )
+										add( new javax.swing.tree.DefaultMutableTreeNode {
+											userObject: "item2"
+											add( new javax.swing.tree.DefaultMutableTreeNode {
+												userObject: "item21"
+											} )
+											add( new javax.swing.tree.DefaultMutableTreeNode {
+												userObject: "item22"
+											} )
+										} )
+										add( new javax.swing.tree.DefaultMutableTreeNode {
+											userObject: "item3"
+											add( new javax.swing.tree.DefaultMutableTreeNode {
+												userObject: "item31"
+											} )
+										} )
+										add( new javax.swing.tree.DefaultMutableTreeNode {
+											userObject: "item4"
+										} )
+									} )
+								} )
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "Center"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Tab2"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPane2"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "table1"
+								"model": new com.jformdesigner.model.SwingTableModel( new java.util.Vector {
+									add( new java.util.Vector {
+										add( "1" )
+										add( "11" )
+										add( "111" )
+									} )
+									add( new java.util.Vector {
+										add( "2" )
+										add( "22" )
+										add( "222" )
+									} )
+									add( new java.util.Vector {
+										add( "3" )
+										add( "33" )
+										add( "333" )
+									} )
+									add( new java.util.Vector {
+										add( "4" )
+										add( "44" )
+										add( "444" )
+									} )
+								}, new java.util.Vector {
+									add( "ID" )
+									add( "NAME" )
+									add( "VALUE" )
+								}, new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+								}, new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+								}, new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+								} )
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Tab4"
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JDesktopPane", new FormLayoutManager( class javax.swing.JDesktopPane ) ) {
+						name: "desktopPane2"
+						"background": sfield java.awt.Color lightGray
+						add( new FormContainer( "javax.swing.JInternalFrame", new FormLayoutManager( class javax.swing.BoxLayout ) {
+							"axis": 0
+						} ) {
+							name: "internalFrame1"
+							"visible": true
+						}, new FormLayoutConstraints( null ) {
+							"x": 60
+							"y": 25
+							"width": 160
+							"height": 80
+						} )
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridBagLayout ) {
+					"$columnSpecs": "0:1.0, 80, 80, 80"
+					"$rowSpecs": "0"
+					"$hGap": 5
+					"$vGap": 5
+				} ) {
+					name: "buttonBar"
+					"border": new javax.swing.border.EmptyBorder( 12, 0, 0, 0 )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "okButton"
+						"text": "OK"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 1
+						"gridy": 0
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "cancelButton"
+						"text": "Cancel"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 2
+						"gridy": 0
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "helpButton"
+						"text": "Help"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 3
+						"gridy": 0
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "South"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 640, 480 )
+		} )
+	}
+}

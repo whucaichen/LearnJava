@@ -1,0 +1,115 @@
+JFDML JFormDesigner: "5.2.4.0.321" Java: "1.8.0_40" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp menuBar1::l:::x, comp toolBar1::l:::x, seq l {comp splitPane1:::::x, space :::p}}"
+			"$verticalGroup": "par l {seq l {comp menuBar1:::p::p, space :::p, comp toolBar1:::p::p, space :::p, comp splitPane1::::405:x}}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JToolBar", new FormLayoutManager( class javax.swing.JToolBar ) ) {
+				name: "toolBar1"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space :::p, comp checkBox1:::p::p, space :::p, comp radioButton1:::p::p, space :::p, comp radioButton2:::p::p, space :::p, comp comboBox1:::p::p, space :::p, comp toggleButton1:::p::p, space :::p, comp spinner1:::p::p, space :::p, comp progressBar1:::p::p, space :::p, comp slider1::::132:x, space :::p}}"
+					"$verticalGroup": "par l {seq l {space :::p, par l {comp slider1:::::x, comp progressBar1::l:::x, comp spinner1::l:::x, comp toggleButton1::l:::x, comp comboBox1::l:::x, comp radioButton2::t:::x, comp radioButton1::l:::x, comp checkBox1::l:::x}, space :::p}}"
+				} ) {
+					name: "panel2"
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "comboBox1"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "checkBox1"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "radioButton1"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "radioButton2"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JToggleButton" ) {
+						name: "toggleButton1"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JSpinner" ) {
+						name: "spinner1"
+					} )
+					add( new FormComponent( "javax.swing.JProgressBar" ) {
+						name: "progressBar1"
+					} )
+					add( new FormComponent( "javax.swing.JSlider" ) {
+						name: "slider1"
+					} )
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+				name: "splitPane1"
+				"dividerLocation": 100
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane1"
+					add( new FormComponent( "javax.swing.JTree" ) {
+						name: "tree1"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "left"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space :::p, par l {comp scrollPane2:::::x, seq {comp textField1::::459:x, space :::p, comp button1:::p::p}}}}"
+					"$verticalGroup": "par l {seq l {space :::p, comp scrollPane2::::257:x, space :::p, par l:::p {comp button1:::::x, comp textField1:::::x}, space :::p}}"
+				} ) {
+					name: "panel1"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane2"
+						add( new FormComponent( "javax.swing.JTextArea" ) {
+							name: "textArea1"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField1"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"text": "Send"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "right"
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar1"
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu1"
+					"text": "文件"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "Open"
+						"text": "打开"
+						"actionCommand": "text"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "New"
+						"text": "新建"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "Save"
+						"text": "保存"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "Exit"
+						"text": "退出"
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu2"
+					"text": "帮助"
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 5 )
+			"size": new java.awt.Dimension( 640, 480 )
+		} )
+	}
+}
